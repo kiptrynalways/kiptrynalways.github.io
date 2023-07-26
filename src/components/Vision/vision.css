@@ -1,0 +1,91 @@
+.trave__vision {
+    color: white;
+    display: flex;
+    justify-content: space-between; 
+}
+.trave__vision-video {
+    width: 400px;
+    height: 50vh;
+}
+.trave_vision-content {
+    position: absolute;
+    transform: (-50% -50%);
+    color: white;
+    font-size: 10px;
+    margin-left: 90px;
+    justify-content: right;
+}
+.trave_vision-content h1 {
+    font-size: 25px;
+}
+.trave-vision-iconbus img {
+    height: 15px;
+    width: 15px;
+    float: left;
+    margin-left: 30px;
+}
+.trave-vision-iconbus h1 {
+    margin-left: 10%;
+}
+.trave-vision-iconbus p {
+padding: 10px;
+margin: 60px;
+}
+.trave__vision-video video {
+    width: 100%;
+    height: 70%;
+    position: absolute;
+    object-fit: cover;
+    
+    }
+    .trave__vision-video p {
+        text-align: justify;
+
+    }
+.trave_vision-content p {
+    font-family: var(--font-family);
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: greenyellow;
+    margin-top: 45px;
+    margin-bottom: -5px;
+
+
+}
+
+@media screen and (max-width: 650px) {
+    .trave__vision {
+        flex-direction: column;
+    }
+    .trave__vision-button {
+        margin: 2rem 0 0;
+    }
+}
+@media screen and (max-width: 550px) {
+    .trave__vision {
+        margin: 4rem 2rem;
+    }
+    .trave__vision-content h3 {
+        font-size: 18px;
+        line-height: 32px;
+    }
+    .trave__vision-button button {
+        font-size: 14px;
+        line-height: 28px;
+    }
+    @media only screen and (min-width: 400px) and (max-width: 750px) {
+        .trave__vision {
+            flex-direction: column;
+        }
+        .trave_vision-content {
+            margin: 5%;
+            flex-direction: column;
+            margin-top: -10px 1 1 -10px;
+            margin: 0 0 0 0;
+        }
+        .trave-vision-iconbus {
+            margin-top: 95px;
+        }
+    }
+}

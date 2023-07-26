@@ -1,0 +1,83 @@
+.trave__brand {
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+
+}
+.trave__image {
+    margin: 70px
+}
+
+.trave_brand-content {
+margin: 70px;
+}
+.trave_brand-content h2 {
+    font-size: 30px;
+    color: blue;
+}
+.trave_brand-content p {
+    color: black;
+    font-size: 26px;
+    text-align: justify;
+}
+@media only screen and (max-width: 400px) {
+    .trave__brand {
+      flex-direction: column;
+      margin-right: 10px;
+      padding: 0px;
+    }
+    .trave__image {
+      margin: 50px;
+      justify-content: left;
+
+    }
+    .trave_brand-content {
+      margin: 0;
+      text-align: center;
+    }
+    .trave_brand-content h2 {
+      font-size: 20px;
+    }
+    .trave_brand-content p {
+      font-size: 14px;
+    }
+  }
+  
+  
+@media only screen and (min-width: 750px) and (max-width: 1050px) {
+    .trave__brand {
+      flex-direction: column;
+    }
+    .trave__image {
+      margin: 0;
+    }
+    .trave_brand-content {
+      margin: 0;
+      text-align: center;
+    }
+    .trave_brand-content h2 {
+      font-size: 20px;
+    }
+    .trave_brand-content p {
+      font-size: 14px;
+    }
+  }
+  @media only screen and (min-width: 400px) and (max-width: 750px) {
+    .trave__brand {
+      flex-direction: column;
+    }
+    .trave__image {
+      margin: 0px;
+    }
+    .trave_brand-content {
+      margin: 0px;
+      text-align: center;
+    }
+    .trave_brand-content h2 {
+        font-size: 20px;
+      }
+      .trave_brand-content p {
+        font-size: 14px;
+      }
+  }
+  

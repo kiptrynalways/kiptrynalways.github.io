@@ -1,0 +1,95 @@
+.trave__header {
+  display: flex;
+  flex-wrap: nowrap;
+}
+.trave__header-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.trave__header-image video {
+  width: 120%;
+  height: 120%;
+  align-items: center;
+  justify-content: center;
+}
+h3 {
+  position: absolute;
+  transform: (-50% -50%);
+  color: bisque;
+  font-size: 38px;
+  top: 250px;
+}
+h4 {
+  position: relative;
+  color: whitesmoke;
+  transform: (-50% -50%);
+  font-size: 25px;
+  top: 350px;
+}
+.travel__header {
+  position: absolute;
+  bottom: 25%;
+}
+@media screen and (max-width: 1500px) {
+}
+@media screen and (max-width: 1050px) {
+  .trave__header {
+    flex-direction: column;
+  }
+}
+.trave__header {
+  display: block;
+}
+.trave__header p {
+  font-size: 14px;
+  line-height: 24px;
+}
+.travel__header {
+  position: absolute;
+  bottom: 65%;
+}
+@media screen and (max-width: 700px) {
+  .trave__header h1 {
+    font-size: 48px;
+    line-height: 60px;
+  }
+  .trave__header p {
+    font-size: 16px;
+    line-height: 14px;
+    margin-bottom: 60px;
+  }
+  .trave__header h1 {
+    font-size: 12px;
+    line-height: 10px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .trave__header {
+    display: block;
+  }
+  .trave__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .travel__header {
+    position: absolute;
+    bottom: 65%;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .trave__header {
+    display: block;
+  }
+  .trave__header p {
+    font-size: 14px;
+    line-height: 24px;
+  }
+  .travel__header {
+    position: absolute;
+    bottom: 65%;
+  }
+}
