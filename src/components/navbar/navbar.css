@@ -3,7 +3,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 2rem 6rem;
-    background-color: #FF4820;
+    background-color: white;
 }
 
 .trave__navbar-links {
@@ -33,7 +33,7 @@
     align-items: center;
 }
 .trave__navbar-links_container p, .trave__navbar-sign p, .trave__navbar-menu_container p {
-color: #fff;
+color: black;
 font-family: var(--font-family);
 font-weight: 500;
 font-size: 18px;

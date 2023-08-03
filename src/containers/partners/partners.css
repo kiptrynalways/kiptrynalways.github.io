@@ -1,7 +1,7 @@
 .partners__possibility {
     display: flex;
     flex-direction: column;
-    background-color: wheat;
+    background-color: white;
 }
 
 .partners__features-heading h1 {
@@ -12,7 +12,7 @@
 }
 .trave__image-partners {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     margin-left: 570px;
     
 }
