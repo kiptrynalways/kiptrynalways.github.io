@@ -12,6 +12,8 @@ body {
 a {
     color: unset;
     text-decoration: none;
+    border: 2px solid white;
+    border-radius: 5px;
 }
 
 .gradient_bg {

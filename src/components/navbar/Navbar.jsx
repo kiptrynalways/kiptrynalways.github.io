@@ -37,6 +37,7 @@ const Navbar = () => {
         <div className="trave__navbar-links_container">
           <Menu />
         </div>
+        
       </div>
 
       <div className="trave__navbar-menu">
